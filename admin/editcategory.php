@@ -2,19 +2,6 @@
 include 'header.php'; 
 ?>
 
-<body>
-
-<div class="adminPanel">
-
-	<header>
-	<div class="container-fluid">
-	<div class="row">
-	<div class="col-md-6"><h2>Links list Dashboard</h2></div>
-	<div class="col-md-6 right"><a class="headBtn" href="../logout.php">Logout</a></div>
-	</div>
-	</div>
-	</header>
-
 <div class="container-fluid editform">
 
 <div class='row groupheadline'>
