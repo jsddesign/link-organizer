@@ -6,3 +6,4 @@ I found this very useful as a sort of website bookmarks, where you got a nice wi
 I make this page with PHP and all styles with CSS to have a nice clean layout, including the Admin section.
 
 Screenshots:
+<img src="images/prevShot1.jpg" />
