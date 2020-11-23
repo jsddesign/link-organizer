@@ -1,0 +1,38 @@
+
+.right{text-align:right;}
+.Main{padding:20px 0 50px;}
+header{padding: 20px 0;}
+
+.adminPanel{padding: 0 0 30px;}
+.adminPanel header{background:#e8d4a5;color:white;}
+.adminPanel h3{margin:20px 0 10px;}
+.groupheadline{border-bottom:1px solid #cccccc;padding:5px 0;margin-bottom:10px;}
+.adminPanel .headBtn{margin:5px 0; color:white;padding:6px 16px;font-weight:bold;}
+.adminPanel .btn{border: 1px solid #e6d5ad;background:#f3ecdc;display:inline-block;width:100px;text-align:center;border-radius:3px;margin-top:20px;}
+.adminPanel .list{margin-bottom:30px;}
+.adminPanel .list .item{margin:5px 0;border-bottom: 1px solid #cccccc;border-right: 1px solid #cccccc;padding:3px 5px;cursor:pointer;background:#f9f9f9;}
+.adminPanel .list .item .logo{width:100%;height:auto;max-height:30px;}
+.adminPanel .list .item .itembtn {display:inline-block;margin: 0 5px; padding:2px 6px;background:#96b4c3;color:white;width:80px;text-align:center;border-radius:3px;}
+.LinklistIndex{margin-bottom:10px;padding: 3px 5px;}
+.LinklistIndex .row div{font-weight:bold;cursor:pointer;}
+
+.popup{position:absolute;top:0;width:100%;height:100%;background: rgba(0, 0, 0, .7);display:none;}
+.popup .popupcontent{position:absolute;padding: 10px;width:1200px;background-color:white;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius:5px;border:2px solid #000000;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);}
+.popup .popupcontent .popform{display:none;}
+.popup .popupcontent .popform h3{width:90%;border-bottom:1px solid #cccccc;margin-bottom:20px;}
+.popup .popupcontent .popform label{display:inline-block;width:14%;}
+.popup .popupcontent .popform input[type="text"], .popup .popupcontent .popform select{width:84%;}
+.popup .popupcontent .popform input[type="file"]{width:43%;}
+.popup .popupcontent .popform .formBtns{margin:10px 0; width:98%; text-align:right;}
+.popup .popupcontent .popform .formBtns input{display:inline-block; margin:10px 0 0 20px;width:120px;}
+.popup .popupcontent .close{cursor:pointer;position:absolute;top:10px;right:10px;width:25px;height:25px;}
+.popup .popupcontent .popform #complogo{background:#cccccc;border:1px solid black;}
+.messageBox{position:absolute;padding:10px;top: 50%;left: 50%;-webkit-transform: translate(-50%, -50%);transform: translate(-50%, -50%);width:300px;text-align:center;border:1px solid #cccccc;}
+
+.editform label{display:inline-block;width:24%;}
+.editform input[type="text"], .popup .popupcontent .popform select{width:84%;}
+.editform input[type="file"]{width:43%;}
+.editform .formBtns{margin:10px 0; width:90%; text-align:right;}
+.editform .formBtns input{display:inline-block; margin:10px 0 0 20px;width:120px;}
+.editform .close{cursor:pointer;position:absolute;top:10px;right:10px;width:25px;height:25px;}
+.editform .popform #complogo{background:#cccccc;border:1px solid black;}

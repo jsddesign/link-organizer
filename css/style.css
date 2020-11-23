@@ -1,0 +1,56 @@
+
+body {margin:0px;padding:0px;}
+.unhighlight {
+	-webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+	-webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+}
+div:focus, img:focus, h1:focus, h2:focus, h3:focus, h4:focus {outline: none !important;}
+.right{text-align:right;}
+.Main{padding:20px 0 50px;}
+header{padding: 10px 0;border-bottom:1px solid #cccccc;margin-bottom:20px;}
+header .headBtn{display:inline-block;border-radius:3px;background:#dcdcdc; color:#545454;font-weight:bold;width:100px;text-align:center;padding:5px;}
+header .headBtn:hover{text-decoration:none !important;background:#cccccc;}
+.openlinks{background-color:#f9f9f9;cursor:pointer;}
+.menu a{padding:7px 0; background-color:#a3a6ad; color:#ffffff; width:200px;cursor:pointer;text-align:center;margin-bottom:20px;display:inline-block;margin:0 5px;}
+.menu a.active{background-color:#658de4;}
+.links{margin-top:20px;}
+.links .col.selected{background-color:black;color:white;}
+
+.links .col.url, .links .col.lpj, .links .col.linked{cursor:pointer;}
+
+.headline{padding:10px 0;background-color:#ffffff;}
+
+.rowcompany{padding:2px 0 0;background-color:#ffffff;}
+.rowcompany .name, .rowcompany .logo, .rowcompany .lpj, .rowcompany .url {cursor:pointer;}
+.col{border-bottom:1px solid #ededed;border-right:1px solid #ededed; height: 26px;overflow: hidden;padding-right: 10px;padding-left: 10px;}
+.headline .col{border-bottom:1px solid #bdbdbd;border-right:1px solid #bdbdbd;}
+
+.logo img{max-width: 100%;max-height: 25px;}
+.recruiters .logo img{max-width: 100%;max-height: 50px;}
+
+.rowcompany .linkedin{cursor:pointer;font-weight:bold;}
+
+.competitor .note{font-weight:bold;color:red;}
+
+.clear{clear:both;}
+.floatcol{width:100%;}
+
+.recruiter .row {margin-right:5px;margin-left:5px;height:50px;}
+.recruiter .mainrow{height:60px;}
+.recruiter .mainrow input[type="text"]{width:300px;}
+.recruiter .logo {padding-right: 1px;padding-left: 1px;}
+.recruiter .logo img{max-height: 45px;}
+
+.notouse{background-color:red;}
+
+.jcol5{display:inline-block;width:5%;}
+.jcol10{display:inline-block;width:10%;}
+.jcol20{display:inline-block;width:20%;}
+.jcol30{display:inline-block;width:30%;}
+.jcol40{display:inline-block;width:40%;}
+.jcol50{display:inline-block;width:50%;}
